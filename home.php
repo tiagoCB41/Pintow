@@ -13,82 +13,28 @@ require "config/url.class.php";
 </head>
 
 <body>
-	<header class="w-full bg-color1">
-		<nav class="border-gray-200 py-2.5">
-			<div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-				<a href="#" class="flex items-center">
-					<img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-					<span class="self-center text-xl font-semibold whitespace-nowrap">Landwind</span>
-				</a>
-				<div class="flex items-center lg:order-2">
-					<div class="hidden mt-2 mr-4 sm:inline-block">
-						<a class="github-button" href="https://github.com/themesberg/landwind" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star themesberg/landwind on GitHub">Star</a>
-					</div>
-					<a href="#" class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 focus:outline-none">Log in</a>
-					<a href="https://themesberg.com/product/tailwind-css/landing-page" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none">Download</a>
-					<button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
-						<span class="sr-only">Open main menu</span>
-						<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-						</svg>
-						<svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-						</svg>
-					</button>
-				</div>
-			</div>
-		</nav>
-	</header>
+	<?php include "components/navbar.php" ?>
 
 	<!-- partial -->
 	<!-- Start block -->
 	<section class="bg-color1">
-		<div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+		<div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-20">
 			<div class="mr-auto place-self-center lg:col-span-7">
-				<h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl">
-					Tudo o que você precisa para sua pintura perfeita</h1>
-				<p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">This free
-					and open-source landing page template was built using the utility classes from <a href="https://tailwindcss.com" class="hover:underline">Tailwind CSS</a> and based on the components from the
-					<a href="https://flowbite.com/docs/getting-started/introduction/" class="hover:underline">Flowbite Library</a>
-					and the <a href="https://flowbite.com/blocks/" class="hover:underline">Blocks System</a>.
+				<h1 class="text-white max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+					Tudo o que você precisa para sua pintura perfeita
+				</h1>
+				<p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
+					A pintow é uma solução inteligente para você planejar
+					sua reforma com melhores preços, garantia, segurança e no conforto da sua casa.
 				</p>
 				<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-					<a href="https://www.figma.com/community/file/1125744163617429490" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
-						<svg class="w-4 h-4 mr-2" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="1667" height="2500">
-							<style type="text/css">
-								.st0 {
-									fill: #0acf83
-								}
-
-								.st1 {
-									fill: #a259ff
-								}
-
-								.st2 {
-									fill: #f24e1e
-								}
-
-								.st3 {
-									fill: #ff7262
-								}
-
-								.st4 {
-									fill: #1abcfe
-								}
-							</style>
-							<title>Figma.logo</title>
-							<desc>Created using Figma</desc>
-							<path id="path0_fill" class="st0" d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
-							<path id="path1_fill" class="st1" d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" />
-							<path id="path1_fill_1_" class="st2" d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" />
-							<path id="path2_fill" class="st3" d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" />
-							<path id="path3_fill" class="st4" d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" />
-						</svg> Get Figma file
+					<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+						Cadastre Agora
 					</a>
 				</div>
 			</div>
 			<div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-				<img src="./images/hero.png" alt="hero image">
+				<img src="<?php echo $URI->base("/assets/img/toque_suave_de_lado2.png"); ?>" alt="hero image">
 			</div>
 		</div>
 	</section>
@@ -97,47 +43,22 @@ require "config/url.class.php";
 			<!-- Row -->
 			<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
 				<div class="text-gray-500 sm:text-lg">
-					<h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Work with tools you
-						already use</h2>
-					<p class="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of
-						traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with
-						ease.</p>
-					<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-						<a href="https://www.figma.com/community/file/1125744163617429490" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
-							<svg class="w-4 h-4 mr-2" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="1667" height="2500">
-								<style type="text/css">
-									.st0 {
-										fill: #0acf83
-									}
-
-									.st1 {
-										fill: #a259ff
-									}
-
-									.st2 {
-										fill: #f24e1e
-									}
-
-									.st3 {
-										fill: #ff7262
-									}
-
-									.st4 {
-										fill: #1abcfe
-									}
-								</style>
-								<title>Figma.logo</title>
-								<desc>Created using Figma</desc>
-								<path id="path0_fill" class="st0" d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
-								<path id="path1_fill" class="st1" d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" />
-								<path id="path1_fill_1_" class="st2" d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" />
-								<path id="path2_fill" class="st3" d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" />
-								<path id="path3_fill" class="st4" d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" />
-							</svg> Get Figma file
-						</a>
-					</div>
+					<h2 class="mb-4 text-5xl font-bold tracking-tight text-gray-900">Somos a única Construtech que oferece parceria
+						com o lojista.</p>
+						<p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl pt-10">
+							Estamos trabalhando para tornar a gestão de venda de produtos
+							tão fácil, que as empresas não precisam pensar duas vezes.
+							Seja em conjunto com nossos produtos, ou para aqueles que
+							desejam otimizar suas vendas com nossa base de clientes,
+							sempre com a formatação de compra planejada.
+						</p>
+						<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+							<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+								Cadastre Agora
+							</a>
+						</div>
 				</div>
-				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/feature-1.png" alt="dashboard feature image">
+				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="<?php echo $URI->base("/assets/img/pintowimg1.png"); ?>" alt="Pintow">
 			</div>
 			<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
 				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/feature-2.png" alt="feature image 2">

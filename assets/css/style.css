@@ -33,13 +33,13 @@ header .logo {
   width: 180px;
 }
 
-h2,
+/* h2,
 h1,
 .posts .swiper-slide h3,
 .posts .post-info span,
 .posts .post-info {
   color: var(--text-color) !important;
-}
+} */
 
 
 .btn_whats {
