@@ -13,12 +13,9 @@ require "config/url.class.php";
 </head>
 
 <body>
-	<?php include "components/navbar.php" ?>
-
-	<!-- partial -->
-	<!-- Start block -->
 	<section class="bg-color1">
-		<div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-20">
+		<?php include "components/navbar.php" ?>
+		<div class="grid max-w-screen-xl px-4 lg:pt-20  pt-10 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-20">
 			<div class="mr-auto place-self-center lg:col-span-7">
 				<h1 class="text-white max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
 					Tudo o que você precisa para sua pintura perfeita
@@ -28,17 +25,17 @@ require "config/url.class.php";
 					sua reforma com melhores preços, garantia, segurança e no conforto da sua casa.
 				</p>
 				<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-					<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+					<a href="cadastre-se" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
 						Cadastre Agora
 					</a>
 				</div>
 			</div>
-			<div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+			<div class="lg:mt-0 lg:col-span-5 lg:flex">
 				<img src="<?php echo $URI->base("/assets/img/toque_suave_de_lado2.png"); ?>" alt="hero image">
 			</div>
 		</div>
 	</section>
-	<section class="bg-gray-50">
+	<section>
 		<div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 			<!-- Row -->
 			<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
@@ -107,8 +104,7 @@ require "config/url.class.php";
 			</div>
 			<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
 				<div class="text-gray-500 sm:text-lg">
-					<h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">We invest in the world’s
-						potential</h2>
+					<h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
 					<p class="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without the complexity of
 						traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with
 						ease.</p>

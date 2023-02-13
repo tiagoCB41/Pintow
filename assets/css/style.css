@@ -33,32 +33,21 @@ header .logo {
   width: 180px;
 }
 
-/* h2,
-h1,
-.posts .swiper-slide h3,
-.posts .post-info span,
-.posts .post-info {
+section {
+  border-color:transparent;
+}
+/* 
+h2,
+h1 { 
   color: var(--text-color) !important;
-} */
-
-
-.btn_whats {
-  position: fixed;
-  bottom: 5%;
-  right: 5%;
-  background: green;
-  padding: 20px;
-  border-radius: 30px;
-  color: #fff;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.shadow-csc {
-  box-shadow: 0 1px 3px 0 var(--shadow-color), 0 1px 2px -1px var(--shadow-color);
-}
+} 
+*/
 
 
 @media (min-width: 769px) {}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .header-img img {
+    position: absolute;
+  }
+}
