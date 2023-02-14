@@ -34,15 +34,12 @@ header .logo {
 }
 
 section {
-  border-color:transparent;
+  border-color: transparent;
 }
-/* 
-h2,
-h1 { 
-  color: var(--text-color) !important;
-} 
-*/
 
+.welcome h1 {
+  color: #4D6F80;
+}
 
 @media (min-width: 769px) {}
 

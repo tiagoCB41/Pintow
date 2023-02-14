@@ -1,4 +1,4 @@
-<header class="pt-4">
+<header class="pt-4 shadow">
   <nav class="py-2.5">
     <div class="flex flex-wrap items-center lg:justify-between justify-center max-w-screen-xl px-4 mx-auto">
       <a href="#" class="flex items-center">
