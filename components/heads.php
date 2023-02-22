@@ -34,8 +34,9 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 			extend: {
 				colors: {
 					color1: '#434598',
-					color2: '#E96708',
-					color3: '#ED1B24',
+					color2: '#EBF5FE',
+					color3: '#15357A',
+					color4: '#519AF4'
 				}
 			}
 		}
