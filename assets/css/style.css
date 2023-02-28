@@ -41,10 +41,24 @@ section {
   color: #4D6F80;
 }
 
+.img-hero {
+  animation: go-back 2s infinite alternate;
+}
+
 @media (min-width: 769px) {}
 
 @media (max-width: 768px) {
   .header-img img {
     position: absolute;
+  }
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    transform: translateY(0);
   }
 }

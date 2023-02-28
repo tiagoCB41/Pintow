@@ -23,6 +23,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 <meta property="og:description" content="<?php echo $description; ?>" />
 
 <link rel="stylesheet" href="<?php echo $URI->base("./assets/css/style.css"); ?>">
+<link rel="stylesheet" href="<?php echo $URI->base("./assets/css/paleta.css"); ?>">
 <link href="<?php echo $URI->base("/assets/img/logo.png"); ?>" rel="icon">
 <link href="<?php echo $URI->base("/assets/img/logo.png"); ?>" rel="apple-touch-icon">
 <script src="https://cdn.tailwindcss.com"></script>

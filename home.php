@@ -8,17 +8,15 @@ require "config/url.class.php";
 
 <head>
 	<?php include "components/heads.php"; ?>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="./assets/css/swiper.css">
 </head>
 
 <body>
 	<section class="bg-color1">
 		<?php include "components/navbar.php" ?>
-		<div class="grid max-w-screen-xl px-4 lg:pt-20  pt-10 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-20">
-			<div class="mr-auto place-self-center lg:col-span-7">
+		<div class="grid max-w-screen-xl px-4 pt-10 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-5">
+			<div class="mr-auto place-self-center lg:col-span-5">
 				<h1 class="text-white max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
-					Tudo o que você precisa para sua pintura perfeita
+					Tudo o que você precisa para sua pintura perfeita.
 				</h1>
 				<p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">
 					A pintow é uma solução inteligente para você planejar
@@ -30,17 +28,17 @@ require "config/url.class.php";
 					</a>
 				</div>
 			</div>
-			<div class="lg:mt-0 lg:col-span-5 lg:flex">
-				<img src="<?php echo $URI->base("/assets/img/toque_suave_de_lado2.png"); ?>" alt="hero image">
+			<div class="lg:mt-0 lg:col-span-7 lg:flex">
+				<img src="<?php echo $URI->base("/assets/img/toque_suave_de_lado2.png"); ?>" alt="hero image" class="img-hero">
 			</div>
 		</div>
 	</section>
 	<section>
 		<div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 			<!-- Row -->
-			<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-				<div class="text-gray-500 sm:text-lg">
-					<h2 class="mb-4 text-5xl font-bold tracking-tight text-color3">Somos a única Construtech que oferece parceria
+			<div class="items-center gap-8 lg:grid lg:grid-cols-12 xl:gap-16">
+				<div class="text-gray-500 sm:text-lg lg:col-span-5">
+					<h2 class="mb-4 text-6xl font-bold tracking-tight text-color3">Somos a única Construtech que oferece parceria
 						com o lojista.</p>
 						<p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl pt-10">
 							Estamos trabalhando para tornar a gestão de venda de produtos
@@ -55,15 +53,24 @@ require "config/url.class.php";
 							</a>
 						</div>
 				</div>
-				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="<?php echo $URI->base("/assets/img/pintowimg1.png"); ?>" alt="Pintow">
+				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex lg:col-span-7" src="<?php echo $URI->base("/assets/img/pintowimg1.png"); ?>" alt="Pintow">
 			</div>
 		</div>
 		<div class="bg-color2">
 			<div class=" max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
-				<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-					<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./assets/img/img2.png" alt="feature image 2">
+				<div class="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+					<div class="pt-20">
+						<div class="swatch">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
 					<div class="text-gray-500 sm:text-lg">
-						<h2 class="mb-4 text-5xl font-bold tracking-tight text-color3">A Pintow é uma comunidade para todos aqueles que amam as cores!</h2>
+						<h2 class="mb-4 text-6xl font-bold tracking-tight text-color3">A Pintow é uma comunidade para todos aqueles que amam as cores!</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
 							<li class="flex space-x-3">
 								<!-- Icon -->
