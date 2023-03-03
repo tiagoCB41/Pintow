@@ -182,7 +182,7 @@ require "config/url.class.php";
 	</section>
 	<section>
 		<div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-24 lg:px-6">
-			<div class="space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0">
+			<div class="space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0 space-x-16 text-center">
 				<div>
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">2min</h3>
 					<p class="font-light text-gray-500">Primeiro tempo de resposta com suporte 24/7</p>
@@ -223,17 +223,16 @@ require "config/url.class.php";
 		</div>
 	</section>
 	<footer class="bg-color1">
-		<div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-			<div class="text-center">
-				<a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-white">
-					<img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-					Landwind
-				</a>
-				<span class="block text-sm text-center text-gray-500">© Copyright 2023. All Rights Reserved.
-				</span>
-			</div>
-		</div>
-	</footer>
+    <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+      <div class="text-center">
+        <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-white">
+          <img src="./assets/img/logo.png" class="h-6 mr-3 sm:h-9" alt="Pintow Logo" />
+        </a>
+        <span class="block text-sm text-center text-white">© Copyright 2023. All Rights Reserved.
+        </span>
+      </div>
+    </div>
+  </footer>
 	<script src="./assets/js/script.js"></script>
 	<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
