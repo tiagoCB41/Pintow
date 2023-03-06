@@ -49,7 +49,7 @@ require "config/url.class.php";
 						sempre com a formatação de compra planejada.
 					</p>
 					<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 lg:mb-0 lg:flex lg:col-span-7">
-						<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+						<a href="https://api.whatsapp.com/send?phone=5586988070748&text=Gostaria%20de%20saber mais%20sobre%20a%20Pintow" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
 							Solicite uma apresentação
 						</a>
 					</div>
@@ -62,15 +62,8 @@ require "config/url.class.php";
 		<div class="bg-color2">
 			<div class=" max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 				<div class="gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-					<div class="pt-20">
-						<div class="swatch">
-							<div></div>
-							<div></div>
-							<div></div>
-							<div></div>
-							<div></div>
-							<div></div>
-						</div>
+					<div>
+						<img class="w-full" src="<?php echo $URI->base("/assets/img/cores.gif"); ?>" alt="Pintow">
 					</div>
 					<div class="text-gray-500 sm:text-lg">
 						<h2 class="text-color3 max-w-2xl mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
@@ -114,15 +107,15 @@ require "config/url.class.php";
 							</li>
 						</ul>
 						<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-							<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+							<a href="cadastre-se" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
 								Cadastre agora
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-					<div class="text-gray-500 sm:text-lg">
-						<h2 class="mb-4 text-3xl font-extrabold tracking-tight text-color3">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
+				<div class="items-center gap-8 grid lg:grid-cols-12 xl:gap-16">
+					<div class="text-gray-500 sm:text-lg lg:col-span-5">
+						<h2 class="mb-4 text-3xl font-semibold tracking-tight text-color3">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
 							<li class="flex space-x-3">
 								<!-- Icon -->
@@ -161,12 +154,14 @@ require "config/url.class.php";
 							</li>
 						</ul>
 						<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-							<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+							<a href="cadastre-se" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
 								Comece agora gratuitamente
 							</a>
 						</div>
 					</div>
-					<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./assets/img/img3.png" alt="feature image 2">
+					<div class="lg:order-last order-first lg:col-span-7">
+						<img class="w-full" src="<?php echo $URI->base("/assets/img/img3.png"); ?>" alt="Pintow">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -178,7 +173,7 @@ require "config/url.class.php";
 				<h2 class="mb-4 text-3xl font-extrabold tracking-tight text-color3">Os motivos para escolher a Pintow</h2>
 				<p class="mb-5 font-light text-gray-500 sm:text-xl">Nosso serviço totalmente automatizado, rápido, seguro e garantia direto de fabrica do setor proporcionam tranquilidade para qualquer cliente. Com a infraestrutura interna da Pintow, a qualidade da entrega sempre vem em primeiro lugar para nossos clientes.</p>
 				<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
-					<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium border border-blue-700 rounded-3xl sm:w-auto focus:outline-none text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+					<a href="https://api.whatsapp.com/send?phone=5586988070748&text=Gostaria%20de%20saber mais%20sobre%20a%20Pintow" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium border border-blue-700 rounded-3xl sm:w-auto focus:outline-none text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
 						Entre em contato Pelo Whats
 					</a>
 				</div>
@@ -223,10 +218,10 @@ require "config/url.class.php";
 			<div class="max-w-screen-sm mx-auto text-center">
 				<h2 class="mb-4 text-3xl font-bold leading-tight tracking-tight text-white">Comece agora com a Pintow</h2>
 				<p class="mb-6 font-light text-white md:text-lg">E participe do ranking de compras da empresa, são muitas vantagens e prêmios para você.</p>
-				<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium border border-white rounded-3xl sm:w-auto focus:outline-none text-white focus:z-10 focus:ring-4 focus:ring-gray-200">
+				<a href="https://api.whatsapp.com/send?phone=5586988070748&text=Orçamento%20de%20Tintas" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium border border-white rounded-3xl sm:w-auto focus:outline-none text-white focus:z-10 focus:ring-4 focus:ring-gray-200">
 					Solicite um orçamento
 				</a>
-				<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium rounded-3xl sm:w-auto focus:outline-none text-white focus:z-10 focus:ring-4 focus:ring-gray-200">Crie uma conta</a>
+				<a href="cadastre-se" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium rounded-3xl sm:w-auto focus:outline-none text-white focus:z-10 focus:ring-4 focus:ring-gray-200">Crie uma conta</a>
 			</div>
 		</div>
 	</section>

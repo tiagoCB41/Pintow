@@ -29,13 +29,13 @@ if (!isset($errMSG)) {
 
   if ($stmt->execute()) {
     echo ("<script>
-      window.location = 'cadastre_se.php';
-      alert('Seu cadastro foi enviado com sucesso');
+      window.location = '../../home.php';
+      alert('Obrigado pelo cadastro, em breve entraremos em contato');
       </script>");
   } else {
     $errMSG = "Erro..";
     "<script>
-      window.location = 'cadastre_se.php';
+      window.location = '../../cadastre_se.php';
       alert('Seu não foi enviado. Por favor, tente novamente.');
       </script>";
   }

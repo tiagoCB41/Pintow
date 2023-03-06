@@ -46,23 +46,31 @@ require "config/url.class.php";
           <label class="text-sm uppercase text-blue-apcef">
             Cidade*
           </label>
-          <select name="city" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
-            <option value="X">
-
-            </option>
-          </select>
+          <input type="text" name="city" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
         </div>
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Profissão*
           </label>
           <select name="profession" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
-            <option value="X">
-
+            <option value="Engenheiro">
+              Engenheiro
+            </option>
+            <option value="Arquiteto">
+              Arquiteto
+            </option>
+            <option value="Pintor">
+              Pintor
+            </option>
+            <option value="Mestre">
+              Mestre de obras
+            </option>
+            <option value="Cliente">
+              Cliente Final
             </option>
           </select>
         </div>
-        <h2 class="font-semibold md:text-left text-center py-2">Aceito receber notificações e ofertas por: </h2>
+        <h2 class="font-semibold text-sm lg:text-lg md:text-left text-center py-4">Aceito receber notificações e ofertas por: </h2>
         <div class="flex justify-between">
           <p>WhatsApp</p>
           <label class="relative inline-flex items-center cursor-pointer">
