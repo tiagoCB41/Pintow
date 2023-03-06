@@ -51,6 +51,12 @@ section {
   .header-img img {
     position: absolute;
   }
+
+  .img-section-2 {
+    position: absolute;
+    top:750px;
+    right: 10px;
+  }
 }
 
 @keyframes go-back {

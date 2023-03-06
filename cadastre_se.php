@@ -17,36 +17,36 @@ require "config/url.class.php";
   <div class="welcome mx-auto max-w-7xl px-2 pt-4">
     <div class="mx-auto max-w-xl px-10 pt-4 shadow">
       <h1 class="py-4 text-xl font-semibold">Seja Bem Vindo</h1>
-      <form action="" method="POST">
+      <form action="./admin/controllers/add_leads.php" method="POST">
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Nome Completo*
           </label>
-          <input type="text" name="nome" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
+          <input type="text" name="name" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
         </div>
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Endereço*
           </label>
-          <input type="text" name="cpf" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
+          <input type="text" name="address" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
         </div>
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Email*
           </label>
-          <input type="text" name="cpf" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
+          <input type="text" name="email" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
         </div>
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Telefone*
           </label>
-          <input type="text" name="cpf" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
+          <input type="text" name="phone" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required />
         </div>
         <div>
           <label class="text-sm uppercase text-blue-apcef">
             Cidade*
           </label>
-          <select name="categoria" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
+          <select name="city" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
             <option value="X">
 
             </option>
@@ -56,7 +56,7 @@ require "config/url.class.php";
           <label class="text-sm uppercase text-blue-apcef">
             Profissão*
           </label>
-          <select name="categoria" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
+          <select name="profession" class="mt-1 mb-2 w-full rounded border-2 border-slate-200 p-2 focus:border-slate-600 focus:outline-none" required>
             <option value="X">
 
             </option>
@@ -66,14 +66,14 @@ require "config/url.class.php";
         <div class="flex justify-between">
           <p>WhatsApp</p>
           <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer">
+            <input name="term_wpp" type="checkbox" value="" class="sr-only peer">
             <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
           </label>
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between mt-1">
           <p>Email</p>
           <label class="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer">
+            <input name="term_email" type="checkbox" value="" class="sr-only peer">
             <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
           </label>
         </div>

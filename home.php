@@ -13,7 +13,7 @@ require "config/url.class.php";
 <body>
 	<section class="bg-color1">
 		<?php include "components/navbar.php" ?>
-		<div class="grid max-w-screen-xl px-4 pt-10 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-5">
+		<div class="grid max-w-screen-xl px-4 pb-40 lg:pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-5">
 			<div class="mr-auto place-self-center lg:col-span-5">
 				<h1 class="text-white max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
 					Tudo o que você precisa para sua pintura perfeita.
@@ -28,7 +28,7 @@ require "config/url.class.php";
 					</a>
 				</div>
 			</div>
-			<div class="lg:mt-0 lg:col-span-7 lg:flex">
+			<div class="lg:mt-0 lg:col-span-7 lg:order-last order-first">
 				<img src="<?php echo $URI->base("/assets/img/toque_suave_de_lado2.png"); ?>" alt="hero image" class="img-hero">
 			</div>
 		</div>
@@ -36,24 +36,27 @@ require "config/url.class.php";
 	<section>
 		<div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
 			<!-- Row -->
-			<div class="items-center gap-8 lg:grid lg:grid-cols-12 xl:gap-16">
+			<div class="items-center gap-8 grid lg:grid-cols-12 xl:gap-16">
 				<div class="text-gray-500 sm:text-lg lg:col-span-5">
-					<h2 class="mb-4 text-6xl font-bold tracking-tight text-color3">Somos a única Construtech que oferece parceria
-						com o lojista.</p>
-						<p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl pt-10">
-							Estamos trabalhando para tornar a gestão de venda de produtos
-							tão fácil, que as empresas não precisam pensar duas vezes.
-							Seja em conjunto com nossos produtos, ou para aqueles que
-							desejam otimizar suas vendas com nossa base de clientes,
-							sempre com a formatação de compra planejada.
-						</p>
-						<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-							<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
-								Solicite uma apresentação
-							</a>
-						</div>
+					<h2 class="text-color3 max-w-2xl pt-36 lg:pt-0 mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+						Somos a única Construtech que oferece parceria
+						com o lojista.</h2>
+					<p class="max-w-2xl mb-6 text-gray-900 font-light lg:mb-8 md:text-lg lg:text-xl text-justify">
+						Estamos trabalhando para tornar a gestão de venda de produtos
+						tão fácil, que as empresas não precisam pensar duas vezes.
+						Seja em conjunto com nossos produtos, ou para aqueles que
+						desejam otimizar suas vendas com nossa base de clientes,
+						sempre com a formatação de compra planejada.
+					</p>
+					<div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 lg:mb-0 lg:flex lg:col-span-7">
+						<a href="#" class="inline-flex items-center justify-center w-full px-5 py-4 mb-2 text-sm font-medium text-white bg-blue-600 rounded-3xl sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200">
+							Solicite uma apresentação
+						</a>
+					</div>
 				</div>
-				<img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex lg:col-span-7" src="<?php echo $URI->base("/assets/img/pintowimg1.png"); ?>" alt="Pintow">
+				<div class="lg:order-last order-first lg:col-span-7">
+					<img class="w-full img-section-2" src="<?php echo $URI->base("/assets/img/pintowimg1.png"); ?>" alt="Pintow">
+				</div>
 			</div>
 		</div>
 		<div class="bg-color2">
@@ -70,7 +73,9 @@ require "config/url.class.php";
 						</div>
 					</div>
 					<div class="text-gray-500 sm:text-lg">
-						<h2 class="mb-4 text-6xl font-bold tracking-tight text-color3">A Pintow é uma comunidade para todos aqueles que amam as cores!</h2>
+						<h2 class="text-color3 max-w-2xl mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+							A Pintow é uma comunidade para todos aqueles
+							que amam as cores!</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
 							<li class="flex space-x-3">
 								<!-- Icon -->
@@ -182,31 +187,34 @@ require "config/url.class.php";
 	</section>
 	<section>
 		<div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-16 xl:gap-24 lg:px-6">
-			<div class="space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0 space-x-16 text-center">
-				<div>
+			<div class="space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0  text-center">
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">2min</h3>
 					<p class="font-light text-gray-500">Primeiro tempo de resposta com suporte 24/7</p>
 				</div>
-				<div>
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">200+</h3>
 					<p class="font-light text-gray-500">Mais de 200 pesquisas feitas com profissionais da área para desenvolver nossa solução. </p>
 				</div>
-				<div>
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">1000+</h3>
 					<p class="font-light text-gray-500">Cores para você ter muita opção de cor e de produto também.</p>
 				</div>
-				<div>
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">2hrs</h3>
 					<p class="font-light text-gray-500">Economizados por cliente na compra fácil e rápida.</p>
 				</div>
-				<div>
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">350+</h3>
 					<p class="font-light text-gray-500">350 colaboradores desenvolvendo o produto que vai chegar na sua obra.</p>
 				</div>
-				<div>
+				<div class="px-8">
 					<h3 class="mb-2 text-4xl text-color3 font-bold text-center">15%+</h3>
 					<p class="font-light text-gray-500">Economizados para aqueles que planejam sua compra.</p>
 				</div>
+			</div>
+			<div class="flex justify-center pt-20 pb-8">
+				<img class="w-1/2" src="./assets/img/Group5750.png" alt="">
 			</div>
 		</div>
 	</section>
@@ -223,16 +231,16 @@ require "config/url.class.php";
 		</div>
 	</section>
 	<footer class="bg-color1">
-    <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-      <div class="text-center">
-        <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-white">
-          <img src="./assets/img/logo.png" class="h-6 mr-3 sm:h-9" alt="Pintow Logo" />
-        </a>
-        <span class="block text-sm text-center text-white">© Copyright 2023. All Rights Reserved.
-        </span>
-      </div>
-    </div>
-  </footer>
+		<div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+			<div class="text-center">
+				<a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-white">
+					<img src="./assets/img/logo.png" class="h-6 mr-3 sm:h-9" alt="Pintow Logo" />
+				</a>
+				<span class="block text-sm text-center text-white">© Copyright 2023. All Rights Reserved.
+				</span>
+			</div>
+		</div>
+	</footer>
 	<script src="./assets/js/script.js"></script>
 	<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
