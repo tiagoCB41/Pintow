@@ -66,7 +66,7 @@ require "config/url.class.php";
 						<img class="w-full" src="<?php echo $URI->base("/assets/img/cores.gif"); ?>" alt="Pintow">
 					</div>
 					<div class="text-gray-500 sm:text-lg">
-						<h2 class="text-color3 max-w-2xl mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
+						<h2 class="pt-4 text-color3 max-w-2xl mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
 							A Pintow é uma comunidade para todos aqueles
 							que amam as cores!</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
@@ -115,7 +115,7 @@ require "config/url.class.php";
 				</div>
 				<div class="items-center gap-8 grid lg:grid-cols-12 xl:gap-16">
 					<div class="text-gray-500 sm:text-lg lg:col-span-6">
-						<h2 class="text-color3 max-w-2xl pt-36 lg:pt-0 mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
+						<h2 class="text-color3 max-w-2xl pt-6 lg:pt-0 mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
 							<li class="flex space-x-3">
 								<!-- Icon -->
