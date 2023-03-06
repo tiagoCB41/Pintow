@@ -114,8 +114,8 @@ require "config/url.class.php";
 					</div>
 				</div>
 				<div class="items-center gap-8 grid lg:grid-cols-12 xl:gap-16">
-					<div class="text-gray-500 sm:text-lg lg:col-span-5">
-						<h2 class="mb-4 text-3xl font-semibold tracking-tight text-color3">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
+					<div class="text-gray-500 sm:text-lg lg:col-span-6">
+						<h2 class="text-color3 max-w-2xl pt-36 lg:pt-0 mb-4 text-3xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">Planeje, administre e consiga mais clientes, através do nosso match de obras.</h2>
 						<ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
 							<li class="flex space-x-3">
 								<!-- Icon -->
@@ -159,7 +159,7 @@ require "config/url.class.php";
 							</a>
 						</div>
 					</div>
-					<div class="lg:order-last order-first lg:col-span-7">
+					<div class="lg:order-last order-first lg:col-span-6">
 						<img class="w-full" src="<?php echo $URI->base("/assets/img/img3.png"); ?>" alt="Pintow">
 					</div>
 				</div>
@@ -208,9 +208,12 @@ require "config/url.class.php";
 					<p class="font-light text-gray-500">Economizados para aqueles que planejam sua compra.</p>
 				</div>
 			</div>
-			<div class="flex justify-center pt-20 pb-8">
-				<img class="w-1/2" src="./assets/img/Group5750.png" alt="">
-			</div>
+			<a href="cadastre-se">
+				<div class="flex justify-center pt-20 pb-8">
+					<img class="w-full hidden lg:block" src="./assets/img/descubra-desk.png" alt="">
+					<img class="w-full lg:hidden" src="./assets/img/descubra-mob.png" alt="">
+				</div>
+			</a>
 		</div>
 	</section>
 	<section class="bg-color4">

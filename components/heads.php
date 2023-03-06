@@ -18,8 +18,8 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 <meta name="author" content="Cairo Felipe Developer">
 
 <meta property="og:title" content="<?php echo $title; ?>" />
-<meta property="og:url" content="https://www.ittnet.net.br/" />
-<meta property="og:image" content="https://www.ittnet.net.br/assets/img/imgog.jpg" />
+<meta property="og:url" content="https://pintow.com.br/assets/img/logo.svg" />
+<meta property="og:image" content="https://pintow.com.br/assets/img/logo.svg" />
 <meta property="og:description" content="<?php echo $description; ?>" />
 
 <link rel="stylesheet" href="<?php echo $URI->base("./assets/css/style.css"); ?>">
