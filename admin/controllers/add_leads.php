@@ -29,7 +29,7 @@ if (!isset($errMSG)) {
 
   if ($stmt->execute()) {
     echo ("<script>
-      window.location = '../../';
+      window.location = '../../obrigado.php';
       alert('Obrigado pelo cadastro, em breve entraremos em contato');
       </script>");
   } else {
